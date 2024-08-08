@@ -3,6 +3,7 @@ import { TaskItem } from "./task"
 export function TasksList(){
     // An array of tasks
     const tasks = [
+        "Go to church",
         "Learn React and more",
         "Build a daily tasks app",
         "Work on a personal project",
