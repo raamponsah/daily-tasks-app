@@ -8,7 +8,7 @@ export function TaskItem(props){
 
 
     return <div>
-    <li className="flex justify-between gap-4 p-2 rounded-lg shadow-lg my-4 hover:bg-gradient-to-br hover:from-fuchsia-500 hover:to-orange-400 cursor-pointer hover:text-white bg-fuchsia-100 text-sm text-fuchsia-900 font-medium">
+    <li className={`flex justify-between gap-4 p-2 rounded-lg shadow-lg my-4 hover:bg-gradient-to-br hover:from-fuchsia-500 hover:to-orange-400 cursor-pointer hover:text-white bg-fuchsia-100 text-sm text-fuchsia-900 font-medium`}>
                 <span>{isCompleted? <strike className="blur-sm">{props.title}</strike>:props.title}</span>
            <div className="flex justify-center items-center gap-2">
            <button onClick={()=>{
