@@ -13,6 +13,7 @@ export function TaskItem(props){
            <div className="flex justify-center items-center gap-2">
            <button onClick={()=>{
                     setName(props.title);
+                       
                     setIsCompleted(true);
                     
                 }} className={`${isCompleted ? 'bg-green-500': 'bg-orange-500'}  rounded text-xs text-white shadow-lg p-1`}>
